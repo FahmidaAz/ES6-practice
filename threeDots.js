@@ -11,7 +11,8 @@ console.log(allAges2);
 const businessMan = 300;
 const minister = 200;
 const mayor = 150;
-
+const regular= Math.max(businessMan,minister,mayor);
+console.log(regular);
 const array  = [300,200,150,600,240,50,3000,450];
 const result = Math.max(...array);
 console.log(result);
